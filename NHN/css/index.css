@@ -2,12 +2,13 @@
 .box {width: 1280px; height: auto; margin: 0 auto;}
 a {text-decoration: none; color: white;}
 header {width: 1280px; height: 60px; background-color: #26353e;}
-header > .logo {width: 115px; height: 40px; overflow: hidden; margin-top: 12px; float: left;}
+header > .logo {width: 98px; height: 40px; overflow: hidden; margin-top: 12px; float: left; margin-left: 20px;}
 header > .logo > img {margin-left: 20px;}
 header > .menu ul,li {list-style: none; float: right; text-align: center; font-size: 14px; color: white;}
 header > .menu {line-height: 30px;}
 header > .menu > ul {margin-top: 15px; margin-right: 20px;}
 header > .menu > ul > li {width: 75px; height: 30px;}
+header > .menu > ul > li:hover > a{transition: 0.5s; color: #eb5e20; }
 .main {width: 1280px; height: 700px;}
 .main img {float: left;}
 #main1 {height: 700px;}
