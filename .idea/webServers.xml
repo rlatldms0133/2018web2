@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="2196c974-3d71-45b3-b26c-6263a45874a3" name="20501" url="http://222.110.147.61/d1">
+      <webServer id="d2fa62ce-54c8-4b8a-b70c-6015018fcef0" name="20501" url="http://222.110.147.61/d1">
         <fileTransfer host="222.110.147.61" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
