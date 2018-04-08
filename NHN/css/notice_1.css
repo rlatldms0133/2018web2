@@ -1,7 +1,7 @@
 * {margin: 0; padding: 0;}
 .wrap {margin: 0 auto; width: 1280px;}
 a {text-decoration: none; color: white;}
-header {width: 1280px; height: 55px; overflow: hidden; background-color: #45471d; position: fixed;}
+header {width: 1280px; height: 55px; overflow: hidden; background-color: #474342; position: fixed;}
 .logo {width: 97px; height:25px; overflow: hidden; margin-left: 20px; margin-top:15px; float: left;}
 header > .menu ul,li {list-style: none; float: right; text-align: center; font-size: 14px; color: white;}
 header > .menu { margin-top: 20px;}

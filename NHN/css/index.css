@@ -1,7 +1,7 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 .box {width: 1280px; height: auto; margin: 0 auto;}
 a {text-decoration: none; color: white;}
-header {width: 1280px; height: 60px; background-color: #26353e;}
+header {width: 1280px; height: 60px; background-color: #474342;}
 header > .logo {width: 98px; height: 40px; overflow: hidden; margin-top: 12px; float: left; margin-left: 20px;}
 header > .logo > img {margin-left: 20px;}
 header > .menu ul,li {list-style: none; float: right; text-align: center; font-size: 14px; color: white;}
@@ -20,8 +20,9 @@ header > .menu > ul > li:hover > a{transition: 0.5s; color: #eb5e20; }
 .content > #notice1 > table {width: 600px;}
 .content > #notice2 {float: left; width: 640px;}
 .content > #notice2 > table {width: 600px;}
+#plus_menu {color: dimgray;}
 table {height: 110px; margin-left: 20px; font-size: 14px; margin-top: 10px;}
-table tr .th {border-bottom: 0.5px solid gray; font-weight: bold;}
+table tr .th {border-bottom: 0.5px solid gray; font-weight: bold; font-size: 15px;}
 table tr .more {float: right; color: #3b3b3b;}
-footer {width: 1280px; height: 27px; border-bottom: 6px solid #3a5769;}
+footer {width: 1280px; height: 27px; border-bottom: 6px solid #474342;}
 footer > p {color: #303232; font-size: 14px; float: right;}
