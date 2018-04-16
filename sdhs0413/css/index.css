@@ -1,0 +1,39 @@
+* {margin: 0; padding: 0;}
+.wrap {width: 1000px; height: auto;  margin: 0 auto; box-sizing: border-box;}
+a {text-decoration: none; color: black;}
+header {width: 1000px; height: 70px; float: left;}
+#header_bgc {width: 1000px; height: 40px; background-color: #97a872; position:absolute; margin-top: 25px; z-index: -1;}
+#logo {float: left;}
+#logo img {height: 50px; float: left;}
+li {list-style: none; text-align: center; font-size: 14px;}
+.main_menu {width: 480px; height: 270px; margin:0 auto; float: left; margin-left:60px;}
+.main_menu a {color: white;}
+.main_menu > ul {width: 480px; height: 270px; padding-top:5px; }
+.main_menu > ul > li {width: 120px; float: left; height: 45px; line-height: 41px;}
+.main_menu > ul > li:hover > a {background-color: #252526; -webkit-background-clip: text; color: transparent; text-shadow: rgba(253, 251, 255, 0.5) 0px 1px 1px;}
+#menu1:hover > ul {height: 84px;}
+#menu2:hover > ul {height: 127px;}
+.main_menu > ul > li > ul {height: 0; overflow: hidden; transition: 1s;border: 1px solid #c4cb99; background-color: white;}
+.main_menu > ul > li > ul a {color: black;}
+.main_menu > ul > li:hover > ul {height: 165px; transition: 1s; z-index: 5; position: relative;}
+.main_menu > ul > li > ul > li:hover > a {text-shadow: 1px 1px #8a8a84;}
+.join_menu {width: 1000px; height: 20px; }
+.inmenu {width: 110px; height: 15px; float: right; margin-right: 20px; margin-top: 4px;}
+.inmenu > p {width: 55px; float: left; font-size: 12px; color: white;}
+.inmenu > p a {color:dimgray;}
+.search {width:160px; height:30px; float: right; line-height: 47px;}
+.search > input {width: 150px; height: 25px;}
+section {width: 1000px; height: auto; float: left;}
+#main_slider {width: 1000px; height: 500px; float: left; overflow: hidden; margin-top: 10px;}
+#img_box {width: 400%; height: 500px; float: left; z-index: 1; position: relative;}
+#img_box img {width: 1000px; height: 500px;}
+#img_box li {width: 1000px; height:500px; float: left;}
+.notice_sea {width: 530px; height: 175px; float: left; border: 1px solid rgba(84, 128, 58, 0.44); margin-top: 14px;}
+.notice_sea > p {width: 90px; height: 30px; font-size: 17px; font-weight: bold; color: #687859; line-height: 32px; margin-left: 14px; float: left;}
+.notice_sea table {margin-left: 13px; float: left; border-top: 1px solid rgba(102, 128, 40, 0.33);}
+.plus {float: left; margin-left: 10px; border: none; height: 18px; margin-top: 7px; background-color: #ffffff;}
+.notice_table th,tr {height: 26px;}
+.notice_table td {font-size: 14px;}
+#click_table {heightoverflow: hidden;}
+#click_table2 {overflow: hidden;}
+.table1 {width: 420px;}
