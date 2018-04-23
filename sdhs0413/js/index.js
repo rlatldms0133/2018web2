@@ -17,4 +17,17 @@ $(document).ready(function(){
 
     slider();
 
+    $("#table_1").click(function () {
+        $("#click_table1").css({"display" : "block"});
+        $("#click_table2").css({"display" : "none"});
+        $("#table_1").css({"color":"#393F2B"});
+        $("#table_2").css({"color":"#687859"});
+    })
+    $("#table_2").click(function () {
+        $("#click_table1").css({"display" : "none"});
+        $("#click_table2").css({"display" : "block"});
+        $("#table_1").css({"color":"#687859"});
+        $("#table_2").css({"color":"#393F2B"});
+    })
+
 });
