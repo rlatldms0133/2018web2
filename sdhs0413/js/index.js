@@ -2,6 +2,9 @@ $(document).ready(function(){
 
     var c=0;
     var inter;
+    var c2=0;
+    var inter2;
+
     function slider(){
         inter = setInterval(function(){
             if(c>=3000) {
@@ -14,8 +17,22 @@ $(document).ready(function(){
             }
         },2500)
     }
+    function next(){
+        inter2 = setInterval(function(){
+            if(c2>=1200) {
+                $("#sub_box").animate({left:"0"});
+                c2 = 0;
+            }
+            else{
+                $("#sub_box").animate({left:"-=400"});
+                c2+=400;
+            }
+        },2000)
+    }
 
     slider();
+    next();
+
 
     $("#table_1").click(function () {
         $("#click_table1").css({"display" : "block"});
