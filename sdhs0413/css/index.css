@@ -28,7 +28,7 @@ section {width: 1000px; height: auto; float: left;}
 #img_box {width: 400%; height: 450px; float: left; z-index: 1; position: relative;}
 #img_box img {width: 1000px; height: 450px;}
 #img_box li {width: 1000px; height:450px; float: left;}
-.notice_sea {width: 580px; height: 175px; float: left; margin-top: 20px; border: 1px solid rgba(84, 128,58,0.44);}
+.notice_sea {width: 581px; height: 175px; float: left; margin-top: 20px; border: 1px solid rgba(84, 128,58,0.44);}
 #notice_top {width: 580px; height: 32px; border-bottom: 1px solid rgba(84, 128,58,0.44);}
 #notice_top > p {width: 85px; height: 30px; font-size: 17px; font-weight: bold; color: #687859; line-height: 32px; margin-left: 14px; float: left; cursor: pointer;}
 .notice_sea table {margin-left: 13px; float: left;}
@@ -44,3 +44,6 @@ section {width: 1000px; height: auto; float: left;}
 #sub_box {width: 1600px; height: 400px; float: left; z-index: 1; position: relative;}
 #sub_box img {width: 310px; height: 400px;}
 #sub_box li {width: 400px; height:400px; float: left;}
+
+.today_bap {width: 259px; height: 203px; border: 1px solid rgba(84, 128,58,0.44); float: left; position: relative; bottom: 205px; }
+.calendar {width: 300px; height: 203px; border: 1px solid rgba(84, 128,58,0.44); float: left; position: relative; bottom: 205px; margin-left: 20px;}
