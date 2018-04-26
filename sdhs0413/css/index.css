@@ -56,4 +56,8 @@ section {width: 1000px; height: 908px; float: left;}
 #nowday {width: 300px; height: 90px; font-size: 55px; text-align: center; color: #2a331f; line-height: 75px;}
 .calendar ul > li {width: 300px; height:33px; border-top: 1px solid rgba(166, 191, 139, 0.52); line-height: 33px; background-color: rgba(173, 191, 145, 0.34);}
 ul > li span {float: right; margin-right: 10px; font-weight: bold;}
+
 footer {width: 100%; height: 110px; background-color: rgba(115, 131, 69, 0.14); float: left; position: relative;}
+#foot {width: 1000px; margin: 0 auto; font-size: 13px;}
+#mini {width: 430px; height: 30px; border: 1px solid rgba(83, 102, 78, 0.46); line-height: 30px; text-align: center; margin-top: 14px; font-size: 13px;}
+#imfor_school {margin-top: 13px; padding-top: 8px; border-top: 1px solid rgba(76, 92, 60, 0.52); }
