@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>join</title>
+    <link rel="stylesheet" href="./css/join.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/join.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <div class="join_head">
+        <div id="logo">
+            <img src="./img/qwerr.jpg" alt="logo">
+        </div>
+        <div id="injoin_box">
+            <p id="injoin">회원가입</p>
+            <p id="injoin_2">개인 정보 입력하세요</p>
+        </div>
+    </div>
+    <form class="imforma_write" action="" method="post">
+        <dl class="id">
+            <dt>
+                <label for="id">아이디</label>
+            </dt>
+            <dd>
+                <input type="text" id="id" name="id" maxlength="20" placeholder=" 아이디">
+            </dd>
+        </dl>
+        <dl class="pw">
+            <dt>
+                <label for="pw" name="pw">비밀번호</label>
+            </dt>
+            <dd>
+                <input type="password" id="pw" name="pw" maxlength="20" placeholder=" 비밀번호">
+            </dd>
+            <dt>
+                <label for="re_pw" name="re_pw">비밀번호 재확인</label>
+            </dt>
+            <dd>
+                <input type="password" id="re_pw" name="re_pw" maxlength="20" placeholder=" 비밀번호 재확인">
+            </dd>
+        </dl>
+        <dl class="name">
+            <dt>
+                <label for="name">이름</label>
+            </dt>
+            <dd>
+                <input type="text" name="name" maxlength="6" placeholder=" 이름">
+            </dd>
+        </dl>
+        <dl class="email_address">
+            <dt>
+                <label for="email">이메일 주소</label>
+            </dt>
+            <dd>
+                <input type="text" name="email" maxlength="20" placeholder=" 이메일 주소">
+            </dd>
+        </dl>
+        <div class="btn">
+            <button>완료</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
