@@ -29,7 +29,7 @@ section {width: 1000px; height: 908px; float: left;}
 #img_box {width: 400%; height: 450px; float: left; z-index: 1; position: relative;}
 #img_box img {width: 1000px; height: 450px;}
 #img_box li {width: 1000px; height:450px; float: left;}
-.notice_sea {width: 581px; height: 175px; float: left; margin-top: 20px; border: 1px solid rgba(84, 128,58,0.44);}
+.notice_sea {width: 581px; height: 175px; float: left; margin-top: 19px; border: 1px solid rgba(84, 128,58,0.44);}
 #notice_top {width: 580px; height: 32px; border-bottom: 1px solid rgba(84, 128,58,0.44);}
 #notice_top > p {width: 85px; height: 30px; font-size: 17px; font-weight: bold; color: #687859; line-height: 32px; margin-left: 14px; float: left; cursor: pointer;}
 .notice_sea table {margin-left: 13px; float: left;}
@@ -41,7 +41,7 @@ section {width: 1000px; height: 908px; float: left;}
 .table1 {width: 470px;}
 #click_table2 {position: absolute; display: none;}
 
-.advertising {float: left; width: 395px; height: 400px; margin-left: 20px; margin-top: 20px; overflow: hidden; border: 1px solid rgba(84, 128,58,0.44);}
+.advertising {float: left; width: 395px; height: 400px; margin-left: 20px; margin-top: 19px; overflow: hidden; border: 1px solid rgba(84, 128,58,0.44);}
 #sub_box {width: 1600px; height: 400px; float: left; z-index: 1; position: relative;}
 #sub_box img {width: 310px; height: 400px;}
 #sub_box li {width: 400px; height:400px; float: left;}
@@ -54,6 +54,6 @@ section {width: 1000px; height: 908px; float: left;}
 .calendar {width: 300px; height: 203px; border: 1px solid rgba(84, 128,58,0.44); float: left; position: relative; bottom: 205px; }
 #nowyemon {width: 300px; height: 30px; font-size: 14px; text-align: center; margin-top: 15px; line-height: 30px;}
 #nowday {width: 300px; height: 90px; font-size: 55px; text-align: center; color: #2a331f; line-height: 75px;}
-.calendar ul > li {width: 300px; height:33px; border-top: 1px solid rgba(166, 191, 139, 0.52); line-height: 33px; background-color: rgba(196, 203, 153, 0.34);}
+.calendar ul > li {width: 300px; height:33px; border-top: 1px solid rgba(166, 191, 139, 0.52); line-height: 33px; background-color: rgba(173, 191, 145, 0.34);}
 ul > li span {float: right; margin-right: 10px; font-weight: bold;}
 footer {width: 100%; height: 110px; background-color: rgba(115, 131, 69, 0.14); float: left; position: relative;}
